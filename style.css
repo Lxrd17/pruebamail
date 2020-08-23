@@ -1,0 +1,58 @@
+@import url('https://lxrd17.github.io/gacetav1_3/webfonts/fonts.css');
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: "SF Display";
+}
+.parallax{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#parallax{
+    background-image: url('https://lxrd17.github.io/gacetav1_3/images/gacetacover1.png');
+}
+.btn{
+    padding: 5px 40px;
+}
+.btn-primary{
+    background-color: #ff9f1c !important;
+    border-color: #ff9f1c !important;
+}
+.btn-primary:active{
+    border-color: #ff9f1c !important;
+}
+.btn-primary:hover{
+    background-color: #ca8019;
+}
+.splash{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    min-height: 40vh;
+    background-image: url('https://lxrd17.github.io/gacetav1_3/images/gacetacover1.png');
+    background-size: cover;
+}
+
+.splash::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('splash.jpg');
+    background-size: 100vh;
+    background-position: center;
+    mix-blend-mode: screen;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
